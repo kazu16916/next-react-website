@@ -17,7 +17,8 @@ export function TwoColumnMain({ children }){
 
 export function TwoColumnSidebar({ children }){
     return (
-        <div clasName={styles.sidebar}>
+        <div className={styles.sidebar}>
+            
             {children}
         </div>
     )
