@@ -19,7 +19,7 @@ export default function Home({ posts }){
         imageOn
       />
       <Posts posts={posts} />
-      <pagination nextUrl="/blog" nextText="More Posts" />
+      <Pagination nextUrl="/blog" nextText="More Posts" />
     </Container>
   )
 }
