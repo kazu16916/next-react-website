@@ -30,11 +30,11 @@ config.autoAddCss=false
       strategy="afterInteractive"
       dangerouslySetInnerHTML={{
         __html:`
-          window.dataLayer=window.dataLayer || [];
+          window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
-          gtag('js',new Date());
-          
-          gtag('config','${gtag.GA_MEASUREMENT_ID}');
+          gtag('js', new Date());
+      
+          gtag('config', '${gtag.GA_MEASUREMENT_ID}');
         `,
       }}
       />
